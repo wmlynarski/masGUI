@@ -8,7 +8,7 @@ namespace mas_mp1
 {
     public class BorrowerLibrarian : Person
     {
-        public Role Roles = Role.Borrower;
+        public Role Roles { get; set; }
         public static List<BorrowerLibrarian> AllBorrowerLibrarians = new List<BorrowerLibrarian>();
         public string BorrowerID { get; set; } = string.Empty;
         public string LibrarianID { get; set; } = string.Empty;
@@ -21,8 +21,15 @@ namespace mas_mp1
         public int RecommendationCount { get; set; }
         public int ReadBooksCount { get; set; }
         public int WatchedDVDsCount { get; set; }
-        public BorrowerLibrarian(string firstName, string lastName, Address? address, DateOnly birthDate) : base(firstName, lastName, birthDate, address)
-        {   
+        public BorrowerLibrarian() : base("", "", DateOnly.MinValue, null) { }
+        public BorrowerLibrarian(string firstName, string lastName, Address? address, DateOnly birthDate)
+        : this(firstName, lastName, address, birthDate, Role.Borrower)
+        {
+        }
+        public BorrowerLibrarian(string firstName, string lastName, Address? address, DateOnly birthDate, Role initialRoles)
+     : base(firstName, lastName, birthDate, address)
+        {
+            Roles = initialRoles;
         }
         public void Borrow(MediaItem item)
         {

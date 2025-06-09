@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace mas_mp1
 {
+    [Flags]
     public enum Role
     {
-        Librarian,
-        Borrower
+        None = 0,
+        Borrower = 1,
+        Librarian = 2
     }
 }

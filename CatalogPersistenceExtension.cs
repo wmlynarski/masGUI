@@ -9,38 +9,49 @@ using System.Xml;
 
 namespace mas_mp1
 {
-    static class CatalogPersistenceExtension
+    public static class CatalogPersistenceExtension
     {
         private static readonly string persistenceFile = "catalog.json";
+
         public static void SaveToFile(this Catalog catalog)
         {
             var settings = new JsonSerializerSettings
             {
                 TypeNameHandling = TypeNameHandling.All,
-                Formatting = (Newtonsoft.Json.Formatting)System.Xml.Formatting.Indented
+                Formatting = Newtonsoft.Json.Formatting.Indented
             };
+
             string json = JsonConvert.SerializeObject(catalog.MediaItems, settings);
             File.WriteAllText(persistenceFile, json);
         }
+
         public static void LoadFromFile(this Catalog catalog)
         {
-            if (File.Exists(persistenceFile))
+            if (!File.Exists(persistenceFile))
+                return;
+
+            string json = File.ReadAllText(persistenceFile);
+
+            var settings = new JsonSerializerSettings
             {
-                string json = File.ReadAllText(persistenceFile);
-                var settings = new JsonSerializerSettings
-                {
-                    TypeNameHandling = TypeNameHandling.All
-                };
+                TypeNameHandling = TypeNameHandling.All
+            };
 
-                var items = JsonConvert.DeserializeObject<List<MediaItem>>(json, settings);
+            var items = JsonConvert.DeserializeObject<List<MediaItem>>(json, settings);
 
-                if (items != null)
-                {
-                    catalog.MediaItems.Clear();
-                    catalog.MediaItems.AddRange(items);
-                    MediaItem.AllMediaItems.Clear();
-                    MediaItem.AllMediaItems.AddRange(items);
-                }
+            if (items != null)
+            {
+                catalog.MediaItems.Clear();
+                catalog.MediaItems.AddRange(items);
+
+                MediaItem.AllMediaItems.Clear();
+                MediaItem.AllMediaItems.AddRange(items);
+
+
+                int maxId = items.Max(i => i.MediaItemID);
+                typeof(MediaItem)
+                    .GetField("_nextMediaItemID", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static)
+                    ?.SetValue(null, maxId + 1);
             }
         }
     }

@@ -8,7 +8,7 @@ namespace mas_mp1
 {
     public abstract class MediaItem
     {
-        public int MediaItemID { get; private set; }
+        public int MediaItemID { get; set; }
         public string Title { get; set; }
         public int PublicationYear { get; set; }
         public Catalog Catalog { get; set; }

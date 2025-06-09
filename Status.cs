@@ -8,9 +8,9 @@ namespace mas_mp1
 {
     public enum Status
     {
-        Borrowed,
-        ReturnedInTime,
-        ReturnedLateFinePayed,
-        ReturnedLateFineNotPayed,
+        Borrowed = 0,              
+        ReturnedInTime = 1,
+        ReturnedLateFinePayed = 2,
+        ReturnedLateFineNotPayed = 3
     }
 }

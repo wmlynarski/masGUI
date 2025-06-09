@@ -10,7 +10,6 @@ namespace mas_mp1
     public class Loan
     {
         public int LoanID { get; private set; }
-        [JsonIgnore]
         public BorrowerLibrarian BorrowerLibrarian { get; set; }
         public MediaItem MediaItem { get; set; }
         public DateTime DueDate { get; set; }
@@ -18,6 +17,7 @@ namespace mas_mp1
         private static int _nextLoanID = 1;
         private const int DefaultLoanPeriodDays = 30;
         private const int HonoraryLoanPeriodDays = 60;
+        public Status GetStatus => Status;
         public Status Status { get; set; } = Status.Borrowed;
         public Loan(BorrowerLibrarian borrowerLibrarian, MediaItem mediaItem)
       : this(borrowerLibrarian, mediaItem, borrowerLibrarian.IsHonorable() ? HonoraryLoanPeriodDays : DefaultLoanPeriodDays)
@@ -30,7 +30,6 @@ namespace mas_mp1
             BorrowerLibrarian = person as BorrowerLibrarian ?? throw new ArgumentException("Person must be a BorrowerLibrarian", nameof(person));
             MediaItem = mediaItem;
             DueDate = DateTime.Now.AddDays(loanPeriodDays);
-            AllLoans.Add(this);
         }
         public decimal Fine => CountFine();
         public decimal CountFine()
@@ -62,10 +61,6 @@ namespace mas_mp1
         public void SetStatusReturnedLateFinePayed()
         {
             Status = Status.ReturnedLateFinePayed;
-        }
-        public Status GetStatus
-        {
-            get { return Status; }
         }
     }
 }

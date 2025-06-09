@@ -1,5 +1,6 @@
 ﻿using mas_mp1;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,10 @@ namespace masGUI
             var settings = new JsonSerializerSettings
             {
                 TypeNameHandling = TypeNameHandling.All,
-                Formatting = Formatting.Indented
+                Formatting = Formatting.Indented,
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
             };
+
             File.WriteAllText(LoanFile, JsonConvert.SerializeObject(loans, settings));
         }
 
@@ -27,7 +30,11 @@ namespace masGUI
             if (!File.Exists(LoanFile))
                 return new List<Loan>();
 
-            var settings = new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.All };
+            var settings = new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.All,
+            };
+
             return JsonConvert.DeserializeObject<List<Loan>>(File.ReadAllText(LoanFile), settings)
                 ?? new List<Loan>();
         }

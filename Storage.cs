@@ -17,7 +17,8 @@ namespace masGUI
             var settings = new JsonSerializerSettings
             {
                 TypeNameHandling = TypeNameHandling.All,
-                Formatting = Formatting.Indented
+                Formatting = Formatting.Indented,
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
             };
             File.WriteAllText(UserFile, JsonConvert.SerializeObject(users, settings));
         }
