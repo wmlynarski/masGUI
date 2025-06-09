@@ -1,0 +1,148 @@
+{
+  "$type": "System.Collections.Generic.List`1[[mas_mp1.Library, masGUI]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "mas_mp1.Library, masGUI",
+      "Name": "Biblioteka Główna",
+      "Address": {
+        "$type": "mas_mp1.Address, masGUI",
+        "Street": "ul. Biblioteczna 1",
+        "City": "Warszawa",
+        "ZipCode": "00-001",
+        "Country": "Polska"
+      },
+      "Catalogs": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Catalog, masGUI]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "mas_mp1.Catalog, masGUI",
+            "Name": "Główna kolekcja",
+            "MediaItems": {
+              "$type": "System.Collections.Generic.List`1[[mas_mp1.MediaItem, masGUI]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "mas_mp1.Book, masGUI",
+                  "Authors": {
+                    "$type": "System.Collections.Generic.List`1[[mas_mp1.Author, masGUI]], System.Private.CoreLib",
+                    "$values": []
+                  },
+                  "NumberOfPages": 400,
+                  "MediaItemID": 28,
+                  "Title": "Pan Tadeusz",
+                  "PublicationYear": 1834,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 191
+                },
+                {
+                  "$type": "mas_mp1.DVD, masGUI",
+                  "Duration": "01:27:00",
+                  "MediaItemID": 29,
+                  "Title": "Krótki film o miłości",
+                  "PublicationYear": 1990,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 35
+                },
+                {
+                  "$type": "mas_mp1.Magazine, masGUI",
+                  "IssueNumber": 5,
+                  "MediaItemID": 30,
+                  "Title": "Wiedza i Życie",
+                  "PublicationYear": 2023,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 2
+                },
+                {
+                  "$type": "mas_mp1.Book, masGUI",
+                  "Authors": {
+                    "$type": "System.Collections.Generic.List`1[[mas_mp1.Author, masGUI]], System.Private.CoreLib",
+                    "$values": []
+                  },
+                  "NumberOfPages": 300,
+                  "MediaItemID": 31,
+                  "Title": "Lalka",
+                  "PublicationYear": 1890,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 135
+                },
+                {
+                  "$type": "mas_mp1.DVD, masGUI",
+                  "Duration": "01:45:00",
+                  "MediaItemID": 32,
+                  "Title": "Człowiek z marmuru",
+                  "PublicationYear": 1977,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 48
+                },
+                {
+                  "$type": "mas_mp1.Magazine, masGUI",
+                  "IssueNumber": 10,
+                  "MediaItemID": 33,
+                  "Title": "Focus",
+                  "PublicationYear": 2024,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 1
+                },
+                {
+                  "$type": "mas_mp1.Book, masGUI",
+                  "Authors": {
+                    "$type": "System.Collections.Generic.List`1[[mas_mp1.Author, masGUI]], System.Private.CoreLib",
+                    "$values": []
+                  },
+                  "NumberOfPages": 220,
+                  "MediaItemID": 34,
+                  "Title": "Zbrodnia i kara",
+                  "PublicationYear": 1866,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 159
+                },
+                {
+                  "$type": "mas_mp1.DVD, masGUI",
+                  "Duration": "02:10:00",
+                  "MediaItemID": 35,
+                  "Title": "Krótki film o miłości",
+                  "PublicationYear": 1988,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 37
+                },
+                {
+                  "$type": "mas_mp1.Magazine, masGUI",
+                  "IssueNumber": 3,
+                  "MediaItemID": 36,
+                  "Title": "National Geographic",
+                  "PublicationYear": 2023,
+                  "Catalog": null,
+                  "Edition": null,
+                  "Age": 2
+                }
+              ]
+            },
+            "Archived": {
+              "$type": "System.Collections.Generic.List`1[[mas_mp1.MediaItem, masGUI]], System.Private.CoreLib",
+              "$values": []
+            },
+            "Library": null,
+            "ById": {
+              "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[mas_mp1.MediaItem, masGUI]], System.Private.CoreLib"
+            }
+          }
+        ]
+      },
+      "Librarians": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.BorrowerLibrarian, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Memberships": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+        "$values": []
+      }
+    }
+  ]
+}

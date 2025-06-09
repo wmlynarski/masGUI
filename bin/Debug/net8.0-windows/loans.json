@@ -1,0 +1,349 @@
+{
+  "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "mas_mp1.Loan, masGUI",
+      "LoanID": 0,
+      "BorrowerLibrarian": {
+        "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+        "Roles": 1,
+        "BorrowerID": "123",
+        "LibrarianID": "",
+        "LoanCount": 1,
+        "Library": null,
+        "Memberships": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "Loans": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "PhoneNumbers": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "123456789"
+          ]
+        },
+        "CommentCount": 0,
+        "RecommendationCount": 0,
+        "ReadBooksCount": 0,
+        "WatchedDVDsCount": 0,
+        "FirstName": "Jan",
+        "LastName": "Kowalski",
+        "Address": null,
+        "BirthDate": "1990-01-01"
+      },
+      "MediaItem": {
+        "$type": "mas_mp1.Magazine, masGUI",
+        "IssueNumber": 5,
+        "MediaItemID": 30,
+        "Title": "Wiedza i Życie",
+        "PublicationYear": 2023,
+        "Catalog": null,
+        "Edition": null,
+        "Age": 2
+      },
+      "DueDate": "2025-07-09T22:20:01.8745173+02:00",
+      "GetStatus": 0,
+      "Status": 0,
+      "Fine": 0.0
+    },
+    {
+      "$type": "mas_mp1.Loan, masGUI",
+      "LoanID": 0,
+      "BorrowerLibrarian": {
+        "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+        "Roles": 1,
+        "BorrowerID": "102",
+        "LibrarianID": "",
+        "LoanCount": 0,
+        "Library": null,
+        "Memberships": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "Loans": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "PhoneNumbers": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "600100102"
+          ]
+        },
+        "CommentCount": 0,
+        "RecommendationCount": 0,
+        "ReadBooksCount": 0,
+        "WatchedDVDsCount": 0,
+        "FirstName": "Użytkownik2",
+        "LastName": "Testowy2",
+        "Address": null,
+        "BirthDate": "1990-01-01"
+      },
+      "MediaItem": {
+        "$type": "mas_mp1.Book, masGUI",
+        "Authors": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Author, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "NumberOfPages": 300,
+        "MediaItemID": 31,
+        "Title": "Lalka",
+        "PublicationYear": 1890,
+        "Catalog": null,
+        "Edition": null,
+        "Age": 135
+      },
+      "DueDate": "2025-07-09T20:23:03.637359",
+      "GetStatus": 0,
+      "Status": 0,
+      "Fine": 0.0
+    },
+    {
+      "$type": "mas_mp1.Loan, masGUI",
+      "LoanID": 0,
+      "BorrowerLibrarian": {
+        "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+        "Roles": 1,
+        "BorrowerID": "103",
+        "LibrarianID": "",
+        "LoanCount": 0,
+        "Library": null,
+        "Memberships": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "Loans": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "PhoneNumbers": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "600100103"
+          ]
+        },
+        "CommentCount": 0,
+        "RecommendationCount": 0,
+        "ReadBooksCount": 0,
+        "WatchedDVDsCount": 0,
+        "FirstName": "Użytkownik3",
+        "LastName": "Testowy3",
+        "Address": null,
+        "BirthDate": "1990-01-01"
+      },
+      "MediaItem": {
+        "$type": "mas_mp1.DVD, masGUI",
+        "Duration": "01:45:00",
+        "MediaItemID": 32,
+        "Title": "Człowiek z marmuru",
+        "PublicationYear": 1977,
+        "Catalog": null,
+        "Edition": null,
+        "Age": 48
+      },
+      "DueDate": "2025-07-09T20:23:03.637377",
+      "GetStatus": 0,
+      "Status": 0,
+      "Fine": 0.0
+    },
+    {
+      "$type": "mas_mp1.Loan, masGUI",
+      "LoanID": 0,
+      "BorrowerLibrarian": {
+        "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+        "Roles": 1,
+        "BorrowerID": "104",
+        "LibrarianID": "",
+        "LoanCount": 0,
+        "Library": null,
+        "Memberships": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "Loans": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "PhoneNumbers": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "600100104"
+          ]
+        },
+        "CommentCount": 0,
+        "RecommendationCount": 0,
+        "ReadBooksCount": 0,
+        "WatchedDVDsCount": 0,
+        "FirstName": "Użytkownik4",
+        "LastName": "Testowy4",
+        "Address": null,
+        "BirthDate": "1990-01-01"
+      },
+      "MediaItem": {
+        "$type": "mas_mp1.Magazine, masGUI",
+        "IssueNumber": 10,
+        "MediaItemID": 33,
+        "Title": "Focus",
+        "PublicationYear": 2024,
+        "Catalog": null,
+        "Edition": null,
+        "Age": 1
+      },
+      "DueDate": "2025-07-09T20:23:03.637381",
+      "GetStatus": 0,
+      "Status": 0,
+      "Fine": 0.0
+    },
+    {
+      "$type": "mas_mp1.Loan, masGUI",
+      "LoanID": 0,
+      "BorrowerLibrarian": {
+        "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+        "Roles": 1,
+        "BorrowerID": "105",
+        "LibrarianID": "",
+        "LoanCount": 0,
+        "Library": null,
+        "Memberships": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "Loans": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "PhoneNumbers": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "600200205"
+          ]
+        },
+        "CommentCount": 0,
+        "RecommendationCount": 0,
+        "ReadBooksCount": 0,
+        "WatchedDVDsCount": 0,
+        "FirstName": "Użytkownik5",
+        "LastName": "Testowy5",
+        "Address": null,
+        "BirthDate": "1990-01-01"
+      },
+      "MediaItem": {
+        "$type": "mas_mp1.Book, masGUI",
+        "Authors": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Author, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "NumberOfPages": 220,
+        "MediaItemID": 34,
+        "Title": "Zbrodnia i kara",
+        "PublicationYear": 1866,
+        "Catalog": null,
+        "Edition": null,
+        "Age": 159
+      },
+      "DueDate": "2025-07-09T20:25:19.264181",
+      "GetStatus": 0,
+      "Status": 0,
+      "Fine": 0.0
+    },
+    {
+      "$type": "mas_mp1.Loan, masGUI",
+      "LoanID": 0,
+      "BorrowerLibrarian": {
+        "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+        "Roles": 1,
+        "BorrowerID": "106",
+        "LibrarianID": "",
+        "LoanCount": 0,
+        "Library": null,
+        "Memberships": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "Loans": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "PhoneNumbers": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "600200206"
+          ]
+        },
+        "CommentCount": 0,
+        "RecommendationCount": 0,
+        "ReadBooksCount": 0,
+        "WatchedDVDsCount": 0,
+        "FirstName": "Użytkownik6",
+        "LastName": "Testowy6",
+        "Address": null,
+        "BirthDate": "1990-01-01"
+      },
+      "MediaItem": {
+        "$type": "mas_mp1.DVD, masGUI",
+        "Duration": "02:10:00",
+        "MediaItemID": 35,
+        "Title": "Krótki film o miłości",
+        "PublicationYear": 1988,
+        "Catalog": null,
+        "Edition": null,
+        "Age": 37
+      },
+      "DueDate": "2025-07-09T20:25:19.2642",
+      "GetStatus": 0,
+      "Status": 0,
+      "Fine": 0.0
+    },
+    {
+      "$type": "mas_mp1.Loan, masGUI",
+      "LoanID": 0,
+      "BorrowerLibrarian": {
+        "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+        "Roles": 1,
+        "BorrowerID": "107",
+        "LibrarianID": "",
+        "LoanCount": 0,
+        "Library": null,
+        "Memberships": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "Loans": {
+          "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+          "$values": []
+        },
+        "PhoneNumbers": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "600200207"
+          ]
+        },
+        "CommentCount": 0,
+        "RecommendationCount": 0,
+        "ReadBooksCount": 0,
+        "WatchedDVDsCount": 0,
+        "FirstName": "Użytkownik7",
+        "LastName": "Testowy7",
+        "Address": null,
+        "BirthDate": "1990-01-01"
+      },
+      "MediaItem": {
+        "$type": "mas_mp1.Magazine, masGUI",
+        "IssueNumber": 3,
+        "MediaItemID": 36,
+        "Title": "National Geographic",
+        "PublicationYear": 2023,
+        "Catalog": null,
+        "Edition": null,
+        "Age": 2
+      },
+      "DueDate": "2025-07-09T20:25:19.264207",
+      "GetStatus": 0,
+      "Status": 0,
+      "Fine": 0.0
+    }
+  ]
+}

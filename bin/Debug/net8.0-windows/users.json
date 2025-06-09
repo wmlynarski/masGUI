@@ -1,0 +1,215 @@
+{
+  "$type": "System.Collections.Generic.List`1[[mas_mp1.BorrowerLibrarian, masGUI]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+      "Roles": 1,
+      "BorrowerID": "123",
+      "LibrarianID": "",
+      "LoanCount": 0,
+      "Library": null,
+      "Memberships": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Loans": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "PhoneNumbers": {
+        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "$values": [
+          "123456789"
+        ]
+      },
+      "CommentCount": 0,
+      "RecommendationCount": 0,
+      "ReadBooksCount": 0,
+      "WatchedDVDsCount": 0,
+      "FirstName": "Jan",
+      "LastName": "Kowalski",
+      "Address": null,
+      "BirthDate": "1990-01-01"
+    },
+    {
+      "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+      "Roles": 1,
+      "BorrowerID": "102",
+      "LibrarianID": "",
+      "LoanCount": 0,
+      "Library": null,
+      "Memberships": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Loans": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "PhoneNumbers": {
+        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "$values": [
+          "600100102"
+        ]
+      },
+      "CommentCount": 0,
+      "RecommendationCount": 0,
+      "ReadBooksCount": 0,
+      "WatchedDVDsCount": 0,
+      "FirstName": "Użytkownik2",
+      "LastName": "Testowy2",
+      "Address": null,
+      "BirthDate": "1990-01-01"
+    },
+    {
+      "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+      "Roles": 1,
+      "BorrowerID": "103",
+      "LibrarianID": "",
+      "LoanCount": 0,
+      "Library": null,
+      "Memberships": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Loans": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "PhoneNumbers": {
+        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "$values": [
+          "600100103"
+        ]
+      },
+      "CommentCount": 0,
+      "RecommendationCount": 0,
+      "ReadBooksCount": 0,
+      "WatchedDVDsCount": 0,
+      "FirstName": "Użytkownik3",
+      "LastName": "Testowy3",
+      "Address": null,
+      "BirthDate": "1990-01-01"
+    },
+    {
+      "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+      "Roles": 1,
+      "BorrowerID": "104",
+      "LibrarianID": "",
+      "LoanCount": 0,
+      "Library": null,
+      "Memberships": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Loans": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "PhoneNumbers": {
+        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "$values": [
+          "600100104"
+        ]
+      },
+      "CommentCount": 0,
+      "RecommendationCount": 0,
+      "ReadBooksCount": 0,
+      "WatchedDVDsCount": 0,
+      "FirstName": "Użytkownik4",
+      "LastName": "Testowy4",
+      "Address": null,
+      "BirthDate": "1990-01-01"
+    },
+    {
+      "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+      "Roles": 1,
+      "BorrowerID": "105",
+      "LibrarianID": "",
+      "LoanCount": 0,
+      "Library": null,
+      "Memberships": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Loans": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "PhoneNumbers": {
+        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "$values": [
+          "600200205"
+        ]
+      },
+      "CommentCount": 0,
+      "RecommendationCount": 0,
+      "ReadBooksCount": 0,
+      "WatchedDVDsCount": 0,
+      "FirstName": "Użytkownik5",
+      "LastName": "Testowy5",
+      "Address": null,
+      "BirthDate": "1990-01-01"
+    },
+    {
+      "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+      "Roles": 1,
+      "BorrowerID": "106",
+      "LibrarianID": "",
+      "LoanCount": 0,
+      "Library": null,
+      "Memberships": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Loans": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "PhoneNumbers": {
+        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "$values": [
+          "600200206"
+        ]
+      },
+      "CommentCount": 0,
+      "RecommendationCount": 0,
+      "ReadBooksCount": 0,
+      "WatchedDVDsCount": 0,
+      "FirstName": "Użytkownik6",
+      "LastName": "Testowy6",
+      "Address": null,
+      "BirthDate": "1990-01-01"
+    },
+    {
+      "$type": "mas_mp1.BorrowerLibrarian, masGUI",
+      "Roles": 1,
+      "BorrowerID": "107",
+      "LibrarianID": "",
+      "LoanCount": 0,
+      "Library": null,
+      "Memberships": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Membership, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Loans": {
+        "$type": "System.Collections.Generic.List`1[[mas_mp1.Loan, masGUI]], System.Private.CoreLib",
+        "$values": []
+      },
+      "PhoneNumbers": {
+        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "$values": [
+          "600200207"
+        ]
+      },
+      "CommentCount": 0,
+      "RecommendationCount": 0,
+      "ReadBooksCount": 0,
+      "WatchedDVDsCount": 0,
+      "FirstName": "Użytkownik7",
+      "LastName": "Testowy7",
+      "Address": null,
+      "BirthDate": "1990-01-01"
+    }
+  ]
+}
