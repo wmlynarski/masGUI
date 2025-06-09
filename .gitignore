@@ -9,6 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+!bin/
+!bin/Debug/
+!bin/Debug/net8.0-windows/
 !bin/Debug/net8.0-windows/**
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
